@@ -2,7 +2,7 @@ import os
 
 
 #professor este trabalho não está completo, meu desempenho não foi bom o suficiente, mas confesso que aprendi bastante com ele. sei que ele não vale a pontuacao, mas estou lhe enviando pq sei que o senho dará feddeback de como poderei melhorar
-#evitei o maximo usar IA's, pois acho que mais ajuda que atrapalha quando não o conhecimento.
+#evitei o maximo usar IA's, pois acho que mais atrapalha que ajuda quando não tem o conhecimento.
 
 
 alunos = [{'nome':'', 'nota': '', 'assiduidade':'', # nao sabia a forma correta da sintaxe para nao ficar mostrando dados fixos deixei aspas sem nenhum do valor.
@@ -10,7 +10,7 @@ alunos = [{'nome':'', 'nota': '', 'assiduidade':'', # nao sabia a forma correta 
 
 
 def exibir_opcoes_do_programa ():
-    print("1- cadastrar aluno\n2- editar dados do aluno\n3 - impressão de relatório de alunos\n4- impressão por filtro\n0- sair " )
+    print("1- cadastrar aluno\n2- editar dados do aluno\n3 - edicao de dados\n4- impressão por filtro\n0- sair " )
     
 
     #utilizei o try para tentar forçar o progrtama a ler todos os valores de opçao comop inteiro.
